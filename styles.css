@@ -3,18 +3,20 @@ body {
     font-family: Roboto, sans-serif;
 }
 
-.header {
+.header,
+.hero {
     display: flex;
-    background: #252442;
+    background: #1f2937;
     justify-content: space-between;
     align-items: center;
     padding: 8px;
+    padding-bottom: 100px;
 }
 
 .logo {
-    font-size: 32px;
+    font-size: 24px;
     font-weight: 700;
-    color: #fff;
+    color: #f9faf8;
 }
 
 ul {
@@ -26,6 +28,48 @@ ul {
 }
 
 a {
-    color: #eee;
+    color: #e5e7eb;
     text-decoration: none;
+}
+
+.hero-title {
+    color: #f9faf8;;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero-text {
+    color: #e5e7eb;
+}
+
+.info-title {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+    padding: 50px;
+}
+
+.information {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    gap: 40px;
+}
+
+.info {
+    max-width: 200px;
+}
+
+.dud {
+    width: 200px;
+    height: 200px;
+    border: 2px solid #3882f6;
+    border-radius: 10%;
+    margin-bottom: 10px;
+}
+
+.info-text {
+    color: #1f2937;
 }
