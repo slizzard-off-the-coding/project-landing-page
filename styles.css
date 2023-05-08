@@ -72,4 +72,33 @@ a {
 
 .info-text {
     color: #1f2937;
+    padding-bottom: 50px;
 }
+
+.center {
+    display: flex;
+    justify-content: center;
+    background: #e5e7eb;
+    padding: 100px;
+}
+
+.quotation {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 40px;
+    max-width: 950px;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.source {
+    color: #1f2937;
+    font-size: 24px;
+    font-weight: 700;
+}
+
